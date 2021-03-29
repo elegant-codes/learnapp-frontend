@@ -38,6 +38,7 @@
 
 
 
+/* For video-class-students.html */
 .topbar {
   display: flex;
   flex-direction: row;
@@ -48,22 +49,53 @@
   padding: 5px;
 }
 .float-left {
-  width: 70%;
-  height: 100%;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center !important;
+  flex-flow: row nowrap;
+  /* align-items: center; */
+  justify-content: flex-start;
+  width: 50%;
+  height: 100%;
+}
+.float-left div {
+  height: 100%;
+  padding: 0 5px;
+  line-height: 60px;
+  /* align-self: center; */
+  /* justify-self: center; */
+  /* border: 1px solid red; */
 }
 .float-left div:last-child {
-  height: 100%;
-  padding: 0 10px;
+  padding-right: 15px;
   border-right: 2px solid grey;
-  align-self: center;
-  justify-self: center;
 }
+
 .float-right {
-  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  width: 50%;
+  height: 100%;
+  font-size: smaller;
+}
+
+.float-right-item1 {
+  display: flex;
+  /* margin: 0 10px; */
+  padding: 0 15px;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  border-left: 2px solid gray;
+  border-right: 2px solid gray;
+}
+.float-right-item2 {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 7px;
+  padding: 0 7px;
 }
 
 .video-container {
@@ -87,6 +119,28 @@
   padding: 0 10px;
 }
 
+@media (max-width: 768px) {
+  .video-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    width: 100%;
+  }
+  .video-bar {
+    width: 100%;
+    height: 100%;
+  }
+  .video-bar video {
+    height: 100%;
+    width: 100%;
+  }
+  .list-of-attendees {
+    width: 100%;
+    padding: 15px 10px;
+  }
+}
 
 
 
