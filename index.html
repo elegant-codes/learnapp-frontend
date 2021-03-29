@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learnapp</title>
+
+  <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <!-- Splide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="stylesheet" href="./stylesheets/mysplide.css">
+
+
+    <!-- My Sttyle -->
+    <link rel="stylesheet" href="./stylesheets/index.css">
+
+</head>
+<body>
+  <!-- <div> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand coloured-word fs-5 fw-bold" href="/frontend/index.html">LearningApp</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/frontend/pages/home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/frontend/pages/classrooms.html">Classrooms</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/frontend/pages/tutors.html">Tutors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/frontend/pages/blog.html" target="_blank">Blog</a>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-between align-items-center">
+            <a href="/frontend/pages/login.html" class="btn non-coloured-button m-2" tabindex="-1" role="button">Login</a>
+            <a href="/frontend/pages/register.html" class="btn coloured-button m-2" tabindex="-1" role="button">Register</a>
+
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="section-one" class="landing-page-one container-fluid p-3">
+      <div class="landing-page-one-left d-flex flex-column">
+        <p class="coloured-word font-monospace my-2">Smart Learning Platform</p>
+        <h1>Explore Thousands of Premium 
+          <span class="coloured-word">Courses</span>
+        </h1>
+        <p class="mt-5">Lorem ipsum do ...... </p>
+        <button class="coloured-button">Enrol Now</button>
+      </div>
+      <div class="landing-page-one-right">
+        <img src="./images/landing-section-one.jpg" alt="Landing page one image" class="img-fluid">
+      </div>
+    </section>
+    
+    
+    <section id="section-two">
+      <div class="landing-page-two container-fluid p-3 my-5">
+        <div>
+          <h1 class="text-center">Our Popular Courses</h1>
+          <p class="text-center">There are many ...</p>
+        </div>
+    
+        <div>
+          <div id="card-slider" class="splide my-3">
+            <div class="splide__track m-4">
+              <ul class="splide__list p-2">
+                <li class="splide__slide m-2 p-2 slide-li">
+                  <div class="splide_slide_container image-container">
+                    <img src="./images/learn-faster.jpg">
+                  </div>
+                  <h4>How to Get Started with Online Studies</h4>
+                  <div>
+                    Description 01
+                  </div>
+                </li>
+                <li class="splide__slide m-2 p-2 slide-li">
+                  <div class="splide__slide__container image-container">
+                    <img src="./images/fund-of-software-dev.jpg">
+                  </div>              
+                  <h4>Fundamentals of Software Dev</h4>
+                  <div>
+                    Description 02
+                  </div>
+                </li>
+                <li class="splide__slide m-2 p-2 slide-li">
+                  <div class="splide_slide_container image-container">
+                    <img src="./images/fine-art.jpg">
+                  </div>
+                  <h4>Fine Art</h4>
+                  <div>
+                    Description 01
+                  </div>
+                </li>
+                <li class="splide__slide m-2 p-2 slide-li">
+                  <div class="splide_slide_container image-container">
+                    <img src="./images/earth-science.jpg">
+                  </div>
+                  <h4>Earth Sciences</h4>
+                  <div>
+                    Description 01
+                  </div>
+                </li>
+                <li class="splide__slide m-2 p-2 slide-li">
+                  <div class="splide__slide__container image-container">
+                    <img src="./images/data-analysis.jpg">
+                  </div>              
+                  <h4>Data Analysis</h4>
+                  <div>
+                    Description 05
+                  </div>
+                </li>
+                <li class="splide__slide m-2 p-2 slide-li">
+                  <div class="splide_slide_container image-container">
+                    <img src="./images/acient-arts.jpg">
+                  </div>
+                  <h4>Accient Arts</h4>
+                  <div>
+                    Description 06
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    
+    <section id="section-three">
+      <div class="landing-page-three container-fluid p-3">
+        <div class="landing-page-three-left">
+          <img src="./images/landing-section-three.jpg" alt="" class="img-fluid">
+        </div>
+        <div class="landing-page-three-right">
+          <div>
+            <h1>Happier Students</h1>
+            <h2>Happier Classrooms</h2>
+            <p>Lorem ipsum ....</p>
+            <p>Lorem ipsum lora sita dolo ....</p>
+            <button class="coloured-button m-2">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section id="section-four">
+      <div class="landing-page-four container-fluid p-3">
+        <div class="landing-page-four-left">
+          <div>
+            <h1>Accessible, safe &amp; even better</h1>
+            <p>jjj kjj jkj jjoi iniiu ibiuio inoio iuo inoio iuo ioooo iuuuuuuuoiohb ubibioi hbbb biu bibihi biu bibib biu ibiu iihihi iuhih iiuhoih iiohoh iuhiuhoho bhhih ihhiooi hg giuhh yugg uguiuhu huihi hhuhi hii jhh ihhihhihih hiiihii hihih bnb bjh yg uiu...</p>
+            <p>1lkjkl </p>
+            <p>hjh jkj</p>
+            <button class="coloured-button">Learn more</button>
+          </div>
+        </div>
+        <div class="landing-page-four-right">
+          <img src="./images/landing-section-four.jpg" alt="" class="img-fluid">
+        </div>
+      </div>
+    </section>
+    
+    <section id="section-five" class="landing-page-five container-fluid p-3">
+      <div></div>
+      <div></div>
+    </section>
+    
+    
+    <section id="section-six">
+      <div class="landing-page-six container-fluid p-3">
+        {
+          Section six
+          Students feedback
+        }
+      </div>
+    </section>
+    
+    
+    <section id="landing-page-seven-id">
+    
+      <div class="landing-seven-container-one pt-5">
+    
+        <div class="landing-seven-container-two">
+          <div>
+            <h1>Our Latest Blog</h1>
+            <p>Thhere dskf fjfj fruier herb bueire iuew</p>
+          </div>
+        
+          <div class="landing-seven-container-three">
+    
+            <div class=" flex-item-one">
+              <div class="card flex-start" style="width: 100%;">
+                <img src="./images/wes-hicks-4-lite.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Advantages of Distance Learning</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content  <a href="#" class="link">Read more...</a></p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="flex-item-two">
+              <div class="card flex-centre" style="width: 100%;">
+                <img src="./images/drone.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Demystifying Drone Tech</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content <a href="#" class="link">Read more...</a></p>
+                  
+                </div>
+              </div>
+            </div>
+    
+            <div class="flex-item-three">
+              <div class="card flex-end" style="width: 100%;">
+                <img src="./images/learn-faster.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">How to Tackle Burnout</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content <a href="#" class="link">Read more...</a></p>
+                </div>
+              </div>
+            </div>
+    
+          </div>
+    
+        </div>
+      </div>
+    
+    
+    </section>
+    
+    
+    <section id="section-eight">
+      <div class="landing-page-eight container-fluid p-3 my-5" style="height: 400px;">
+        <div class="newsletter p-4">
+          <h1 class="text-center">Subscribe to our Newsletter</h1>
+          <p>To get information about new courses, course updates, and blog releases, subscribe with your e-mail address.</p>
+          <form>
+            <input type="email" name="email" id="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+
+    <footer>
+      <div class="footer container-fluid p-3">
+        <div class="py-5 footer-flex-container">
+          <div class="footer-flex-item" style="flex-grow: 2;">
+            <p class="coloured-word fs-5 fw-bold">LearningApp</p>
+            <p>There are various ...</p>
+          </div>
+
+          <div class="footer-flex-item" style="flex-grow: 1;">
+            <p class="fs-6 fw-bold">Home</p>
+            <p>About Us</p>
+            <p>Our Process</p>
+            <p>Services</p>
+          </div>
+
+          <div class="footer-flex-item" style="flex-grow: 1;">
+            <p class="fs-6 fw-bold">Latest Courses</p>
+            <p>Web Design</p>
+            <p>General Science</p>
+            <p>Business Studies</p>
+            <p>Civil Engineering</p>
+          </div>
+
+          <div class="footer-flex-item" style="flex-grow: 1;">
+            <p class="fs-6 fw-bold">Community</p>
+            <p>Team &amp; Plans</p>
+            <p>Go Premium</p>
+            <p>Refer a Friend</p>
+            <p>Gift Cards</p>
+          </div>
+
+          <div class="footer-flex-item" style="flex-grow: 1;">
+            <p class="fs-6 fw-bold">Stay Connected</p>
+            <div></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid p-3 copyright">
+        <p class="text-center">Copyright &copy; 2021. Designed by Chinonso.</p>
+      </div>
+
+    </footer>
+
+
+  <!-- </div> -->
+
+
+  <!-- My Js -->
+  <script src="./javascripts/mysplide.js"></script>
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  <!-- Splide -->
+  <script src="../javascripts/landing.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+
+</body>
+</html>

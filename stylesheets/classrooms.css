@@ -1,0 +1,92 @@
+.my-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(1, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+}
+
+.my-subgrid {
+  border: none;
+}
+
+.my-subgrid img {
+  height: 150px !important;
+  width: 150px !important;
+  border: 1px solid purple;
+  border-radius: 26% 26% 26% 26% / 40% 40% 40% 40% ;
+}
+
+.alert-button {
+  width: max-content;
+  color: white !important;
+  background-color: rgba(255, 0, 0, 0.8);
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 16px 12px -12px rgb(255, 99, 125);
+  -moz-box-shadow: 0 16px 12px -12px rgb(255, 99, 125);
+  box-shadow: 0 16px 12px -12px rgb(255, 99, 125);
+}
+.alert-button:hover {
+  background-color: rgb(255, 0, 0);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+
+
+.topbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 80px;
+  background-color: rgb(230, 230, 230);
+  padding: 5px;
+}
+.float-left {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center !important;
+}
+.float-left div:last-child {
+  height: 100%;
+  padding: 0 10px;
+  border-right: 2px solid grey;
+  align-self: center;
+  justify-self: center;
+}
+.float-right {
+  width: 20%;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%;
+  width: 100%;
+}
+.video-bar {
+  width: 60%;
+  height: 100%;
+}
+.video-bar video {
+  height: 100%;
+  width: 100%;
+}
+.list-of-attendees {
+  width: 40%;
+  padding: 0 10px;
+}
+
+
+
+

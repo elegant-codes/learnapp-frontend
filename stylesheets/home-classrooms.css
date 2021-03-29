@@ -1,0 +1,136 @@
+.header {
+  background-color: rgba(0, 204, 204, 0.8);
+  color: white;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.homepage {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+main {
+  width: 70%;
+}
+
+aside {
+  width: 30%;
+}
+.text-container h5, .text-container span, .text-container button {
+  font-size: medium;
+}
+.aside-card h5, .aside-card p {
+  font-size: medium;
+}
+
+@media (max-width: 768px) {
+  .homepage {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+  }
+  main {
+    width: 100%;
+    /* font-size: small; */
+  }
+  aside {
+    width: 100%;
+  }
+  .text-container h5, .text-container span, .text-container button {
+    font-size: small;
+  }
+  .aside-card h5, .aside-card p {
+    font-size: small;
+  }
+}
+
+.recent-courses-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.recent-courses-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+  /* height: 150px; */
+}
+.main-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.img-container {
+  width: 30%;
+  /* height: 150px; */
+}
+/* #022b2b */
+.text-container {
+  width: 68%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+}
+.faint-btn {
+  background-color: rgba(0, 204, 204, 0.2);
+  color: teal;
+  border: 1px solid rgba(0, 204, 204, 0.6);
+  border-radius: 5px;
+  padding: 5px 15px;
+  height: fit-content;
+  width: fit-content;
+  -webkit-box-shadow: 0 5px 4px -4px teal;
+  -moz-box-shadow: 0 5px 4px -4px teal;
+  box-shadow: 0 5px 4px -4px teal;
+}
+.faint-btn:hover {
+  background-color: teal;
+  color: white;
+}
+
+
+/* Aside content */
+.aside-floor {
+  background-color: whitesmoke;
+  /* border-left: outset; */
+}
+.aside-wrapper {
+  height: 100%;
+  width: 100%;
+}
+.aside-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 100%;
+}
+
+.avatar-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.icons {
+  color: teal;
+}
