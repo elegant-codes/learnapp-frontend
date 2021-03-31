@@ -13,11 +13,11 @@
   width: 100%;
 }
 main {
-  width: 70%;
+  width: 60%;
 }
 
 aside {
-  width: 30%;
+  width: 40%;
 }
 .text-container h5, .text-container span, .text-container button {
   font-size: medium;
