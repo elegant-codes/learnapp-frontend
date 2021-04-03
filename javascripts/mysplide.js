@@ -4,11 +4,16 @@ document.addEventListener( 'DOMContentLoaded', function () {
     // type   : 'loop',
     perMove: 1,
     perPage    : 3,
+    rewind     : true,
     focus: 'center',
+    autoplay: true,
 		breakpoints: {
-			300: {
-				perPage: 1,
-			}
+			950: {
+				perPage: 2,
+			},
+      635: {
+        perPage: 1
+      }
 		}
   } ).mount();
 } );
