@@ -13,9 +13,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
     <link rel="stylesheet" href="./stylesheets/mysplide.css">
 
+      <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,800&family=Raleway:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"> 
 
-    <!-- My Sttyle -->
-    <link rel="stylesheet" href="./stylesheets/index.css">
+    <!-- My Style -->
+    <link rel="stylesheet" href="../stylesheets/index.css">
+
+  
 
 </head>
 <body>
@@ -50,29 +54,35 @@
       </div>
     </nav>
     
-    <section id="section-one" class="landing-page-one container-fluid p-3">
-      <div class="landing-page-one-left d-flex flex-column">
-        <p class="coloured-word font-monospace my-2">Smart Learning Platform</p>
-        <h1>Explore Thousands of Premium 
-          <span class="coloured-word">Courses</span>
-        </h1>
-        <p class="mt-5">Lorem ipsum do ...... </p>
-        <button class="coloured-button">Enrol Now</button>
-      </div>
-      <div class="landing-page-one-right">
-        <img src="./images/landing-section-one.jpg" alt="Landing page one image" class="img-fluid">
+    <section id="section-one" class="landing-page-one container p-3 mt-5">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <div class="landing-page-one-left d-flex flex-column">
+            <p class="coloured-word font-monospace my-2">Smart Learning Platform</p>
+            <h1>Explore Thousands of Premium 
+              <span class="coloured-word">Courses</span>
+            </h1>
+            <p class="mt-5">Cool right? ...... </p>
+            <button class="btn btn-lg coloured-button">Enrol Now</button>
+          </div>
+        </div>
+        <div class="col-md-5">
+          <div class="landing-page-one-right">
+            <img src="./images/landing-section-one.jpg" alt="Landing page one image" class="img-fluid">
+          </div>
+        </div>
       </div>
     </section>
     
     
-    <section id="section-two">
+    <section id="section-two" class="bg-teal">
       <div class="landing-page-two container-fluid p-3 my-5">
-        <div>
-          <h1 class="text-center">Our Popular Courses</h1>
+        <div class="row">
+          <h2 class="text-center section-title">Our Popular Courses</h2>
           <p class="text-center">There are many ...</p>
         </div>
     
-        <div>
+        <div class="row">
           <div id="card-slider" class="splide my-3">
             <div class="splide__track m-4">
               <ul class="splide__list p-2">
@@ -82,8 +92,7 @@
                   </div>
                   <h4>How to Get Started with Online Studies</h4>
                   <div>
-                    Description 01
-                  </div>
+                    Description 01. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quidem placeat omnis odit debitis, sunt, aliquid.
                 </li>
                 <li class="splide__slide m-2 p-2 slide-li">
                   <div class="splide__slide__container image-container">
@@ -91,7 +100,7 @@
                   </div>              
                   <h4>Fundamentals of Software Dev</h4>
                   <div>
-                    Description 02
+                    Description 02 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quidem placeat omnis odit debitis, sunt, aliquid.
                   </div>
                 </li>
                 <li class="splide__slide m-2 p-2 slide-li">
@@ -100,7 +109,7 @@
                   </div>
                   <h4>Fine Art</h4>
                   <div>
-                    Description 01
+                    Description 01 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quidem placeat omnis odit debitis, sunt, aliquid.
                   </div>
                 </li>
                 <li class="splide__slide m-2 p-2 slide-li">
@@ -109,7 +118,7 @@
                   </div>
                   <h4>Earth Sciences</h4>
                   <div>
-                    Description 01
+                    Description 01 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quidem placeat omnis odit debitis, sunt, aliquid.
                   </div>
                 </li>
                 <li class="splide__slide m-2 p-2 slide-li">
@@ -118,7 +127,7 @@
                   </div>              
                   <h4>Data Analysis</h4>
                   <div>
-                    Description 05
+                    Description 05 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quidem placeat omnis odit debitis, sunt, aliquid.
                   </div>
                 </li>
                 <li class="splide__slide m-2 p-2 slide-li">
@@ -127,80 +136,76 @@
                   </div>
                   <h4>Accient Arts</h4>
                   <div>
-                    Description 06
+                    Description 06 Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit quidem placeat omnis odit debitis, sunt, aliquid.
                   </div>
                 </li>
               </ul>
             </div>
           </div>
+
+          <div class="splide__progress">
+            <div class="splide__progress__bar">
+            </div>
         </div>
         
       </div>
     </section>
     
-    <section id="section-three">
-      <div class="landing-page-three container-fluid p-3">
-        <div class="landing-page-three-left">
-          <img src="./images/landing-section-three.jpg" alt="" class="img-fluid">
-        </div>
-        <div class="landing-page-three-right">
-          <div>
-            <h1>Happier Students</h1>
-            <h2>Happier Classrooms</h2>
-            <p>Lorem ipsum ....</p>
-            <p>Lorem ipsum lora sita dolo ....</p>
-            <button class="coloured-button m-2">Learn More</button>
+    
+    <section id="section-three" class="landing-page-one container p-3 mt-5">
+      <div class="row align-items-center">
+        <div class="col-md-5">
+          <div class="landing-page-three-left">
+            <img src="./images/landing-section-three.jpg" alt="" class="img-fluid">
           </div>
         </div>
+
+        <div class="col-md-7 mt-md-0 mt-5">
+          <div class="landing-page-three-left d-flex flex-column mx-md-4 ">
+            <h1>Happier Students</h1>
+              <h2>Happier Classrooms</h2>
+              <p>Lorem ipsum ....</p>
+              <p>Lorem ipsum lora sita dolo ....</p>
+              <button class="btn btn-lg coloured-button m-2">Learn More</button>
+          </div>
+        </div>
+        
       </div>
     </section>
-    
-    <section id="section-four">
-      <div class="landing-page-four container-fluid p-3">
-        <div class="landing-page-four-left">
+
+    <section id="section-four" class="landing-page-four container p-3 mt-5">
+      <div class="row align-items-center">
+        <div class="col-md-7">
           <div>
             <h1>Accessible, safe &amp; even better</h1>
-            <p>jjj kjj jkj jjoi iniiu ibiuio inoio iuo inoio iuo ioooo iuuuuuuuoiohb ubibioi hbbb biu bibihi biu bibib biu ibiu iihihi iuhih iiuhoih iiohoh iuhiuhoho bhhih ihhiooi hg giuhh yugg uguiuhu huihi hhuhi hii jhh ihhihhihih hiiihii hihih bnb bjh yg uiu...</p>
-            <p>1lkjkl </p>
-            <p>hjh jkj</p>
-            <button class="coloured-button">Learn more</button>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam tempora provident voluptatum explicabo, nemo est quod animi molestias harum officia pariatur perferendis a nostrum rerum iste distinctio expedita esse deleniti?</p>
+            <p>Lorem ipsum  </p>
+            <p>Lorem ipsum </p>
+            <button class="btn btn-lg coloured-button">Learn more</button>
           </div>
         </div>
-        <div class="landing-page-four-right">
+        <div class="landing-page-four-right col-md-5 mt-md-0 mt-5">
           <img src="./images/landing-section-four.jpg" alt="" class="img-fluid">
         </div>
       </div>
     </section>
     
-    <section id="section-five" class="landing-page-five container-fluid p-3">
-      <div></div>
-      <div></div>
-    </section>
     
+
     
-    <section id="section-six">
-      <div class="landing-page-six container-fluid p-3">
-        {
-          Section six
-          Students feedback
-        }
-      </div>
-    </section>
-    
-    
-    <section id="landing-page-seven-id">
+    <section id="landing-page-seven-id container-fluid">
     
       <div class="landing-seven-container-one pt-5">
     
-        <div class="landing-seven-container-two">
+        <div class="landing-seven-container-two container-fluid text-center">
           <div>
-            <h1>Our Latest Blog</h1>
-            <p>Thhere dskf fjfj fruier herb bueire iuew</p>
+            <h1 class="section-title">Our Latest Blog</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
           </div>
         
-          <div class="landing-seven-container-three">
+          <div class="landing-seven-container-three row justify-content-center">
     
-            <div class=" flex-item-one">
+            <div class=" flex-item-one col-md-3 m-2">
               <div class="card flex-start" style="width: 100%;">
                 <img src="./images/wes-hicks-4-lite.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -210,7 +215,7 @@
               </div>
             </div>
     
-            <div class="flex-item-two">
+            <div class="flex-item-two col-md-3 m-2">
               <div class="card flex-centre" style="width: 100%;">
                 <img src="./images/drone.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -221,7 +226,7 @@
               </div>
             </div>
     
-            <div class="flex-item-three">
+            <div class="flex-item-three col-md-3 m-2">
               <div class="card flex-end" style="width: 100%;">
                 <img src="./images/learn-faster.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -243,33 +248,34 @@
     <section id="section-eight">
       <div class="landing-page-eight container-fluid p-3 my-5" style="height: 400px;">
         <div class="newsletter p-4">
-          <h1 class="text-center">Subscribe to our Newsletter</h1>
+          <h2 class="text-center section-title">Subscribe to our Newsletter</h2>
           <p>To get information about new courses, course updates, and blog releases, subscribe with your e-mail address.</p>
           <form>
             <input type="email" name="email" id="email" placeholder="Enter your email">
-            <button type="submit">Subscribe</button>
+            <button type="submit" class="btn coloured-button">Subscribe</button>
           </form>
         </div>
       </div>
     </section>
+
     
 
     <footer>
-      <div class="footer container-fluid p-3">
-        <div class="py-5 footer-flex-container">
-          <div class="footer-flex-item" style="flex-grow: 2;">
+      <div class="footer container-fluid p-3 text-center">
+        <div class="py-5 footer-flex-container row ">
+          <div class="footer-flex-item col-lg-3 col-md-4 col-6">
             <p class="coloured-word fs-5 fw-bold">LearningApp</p>
             <p>There are various ...</p>
           </div>
 
-          <div class="footer-flex-item" style="flex-grow: 1;">
+          <div class="footer-flex-item col-lg-3 col-md-4 col-6">
             <p class="fs-6 fw-bold">Home</p>
             <p>About Us</p>
             <p>Our Process</p>
             <p>Services</p>
           </div>
 
-          <div class="footer-flex-item" style="flex-grow: 1;">
+          <div class="footer-flex-item col-lg-3 col-md-4 col-6">
             <p class="fs-6 fw-bold">Latest Courses</p>
             <p>Web Design</p>
             <p>General Science</p>
@@ -277,7 +283,7 @@
             <p>Civil Engineering</p>
           </div>
 
-          <div class="footer-flex-item" style="flex-grow: 1;">
+          <div class="footer-flex-item col-lg-3 col-md-4 col-6">
             <p class="fs-6 fw-bold">Community</p>
             <p>Team &amp; Plans</p>
             <p>Go Premium</p>
@@ -285,7 +291,7 @@
             <p>Gift Cards</p>
           </div>
 
-          <div class="footer-flex-item" style="flex-grow: 1;">
+          <div class="footer-flex-item col-lg-3 col-md-4 col-6">
             <p class="fs-6 fw-bold">Stay Connected</p>
             <div></div>
           </div>
@@ -293,7 +299,7 @@
       </div>
 
       <div class="container-fluid p-3 copyright">
-        <p class="text-center">Copyright &copy; 2021. Designed by Chinonso.</p>
+        <p class="text-center">Copyright &copy; 2021.</p>
       </div>
 
     </footer>
